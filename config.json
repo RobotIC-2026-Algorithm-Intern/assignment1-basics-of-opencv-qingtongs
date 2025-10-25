@@ -1,0 +1,39 @@
+{
+  "color_ranges": {
+    "red1": {
+      "lower": [0, 120, 80],
+      "upper": [15, 255, 255]
+    },
+    "red2": {
+      "lower": [165, 120, 80],
+      "upper": [180, 255, 255]
+    },
+    "blue": {
+      "lower": [100, 100, 60],
+      "upper": [130, 255, 255]
+    },
+    "purple": {
+      "lower": [130, 60, 60],
+      "upper": [160, 255, 255]
+    }
+  },
+  "roi": {
+    "x1": 200,
+    "y1": 150,
+    "x2": 430,
+    "y2": 350
+  },
+  "detection_params": {
+    "min_pixels_ratio": 0.01,
+    "min_pixels_fixed": 50,
+    "min_area_ratio": 0.005
+  },
+  "video_paths": {
+    "path1": "res/output.avi",
+    "path2": "res/output1.avi"
+  },
+  "font": {
+    "size": 0.8,
+    "thickness": 2
+  }
+}
